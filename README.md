@@ -3,6 +3,8 @@
 Simple platform to sell fast food developed with typescript in both, at backend and frontend.
 Feel free to clone to test or use.
 
+![Preview Main](/backend/src/uploads/site-previewImage.png)
+
 ## Technologies Used
 
  - Typescript
