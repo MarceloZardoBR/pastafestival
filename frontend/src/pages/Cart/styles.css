@@ -1,0 +1,143 @@
+#cart-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#cart-container .split-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cart-container .split-container .finish-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    height: 100%;
+}
+
+#cart-container .finish-order p{
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#cart-container .split-container .finish-btn{
+    width: 100px;
+    height: 50px;
+    align-self: flex-start;
+    background-color: #FF3300;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#cart-container .order-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    border-right: 1px solid #666;
+    overflow: auto;
+}
+
+#cart-container .order-products ul{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cart-container .order-products ul li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #666;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+#cart-container .order-products ul li .image-ctn{
+    width: 50%;
+    height: 100%;
+}
+
+#cart-container .order-products ul li footer{
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#cart-container .order-products .name-price-field {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cart-container .qtd-change{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#cart-container .qtd-change button{
+    height: 100%;
+    cursor: pointer;
+    border: 0;
+    background-color: #FFF;
+    outline: none;
+
+}
+
+#cart-container .order-products .name-price-field p{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: black;
+    line-height: 20pt;
+    margin: 5px;
+}
+
+#cart-container .order-products ul li footer span{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 30%;
+    height: 50%;
+}
+
+#cart-container .order-products ul li footer span button{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background-color: #FFF;
+    cursor: pointer;
+    outline: none;
+}
+
+#cart-container .order-products ul li footer span button img{
+    width: 20px;
+    height: 20px;
+}
+
